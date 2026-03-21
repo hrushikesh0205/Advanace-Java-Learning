@@ -1,0 +1,21 @@
+@FunctionalInterface     // in function interface have only one method 
+interface A 
+{
+     void show();
+} 
+public class functional_interface {
+
+    public static void main(String[] args) {
+        
+        A obj= new A() {
+            
+            public void show()
+            {
+                System.out.println("In show method");
+            }
+        };
+
+        obj.show();
+    }
+    
+}
